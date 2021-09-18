@@ -74,6 +74,214 @@
 /*------------planes---------------*/
 
 
+
+.pp-section{
+  color: #212121;
+  padding: 100px 0 85px 0;
+  
+  background-color: #f5f5f5;
+}
+
+.section-header{
+  margin-bottom: 35px;
+  
+}
+
+
+.plan-style{
+  max-width: 100%;
+   margin: auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 30px;
+  transition: all .3s ease-in-out;    
+}
+
+.plan-style .bg-blue{
+  background: #FAD23F;
+}
+.plan-style .bg-blue-btn{
+  background: #FAD23F;
+  background-size: 300% 100%;
+}
+
+.plan-style .bg-blue-btn:hover{
+  background-position: 100% 0;
+  color: #fff;
+  box-shadow: 0px 20px 20px #eee;
+  transition: all .3s ease-in-out;
+}
+
+.plan-style .bg-orange{
+  background: #0652DD;
+}
+.plan-style .bg-orange-btn{
+  background: #0652DD;
+  background-size: 300% 100%;
+}
+
+.plan-style .bg-orange-btn:hover{
+  background-position: 100% 0;
+  color: #fff;
+  box-shadow: 0px 20px 20px #eee;
+  transition: all .3s ease-in-out;
+}
+
+.plan-style .bg-green{
+  background: #fe8c00;
+}
+.plan-style .bg-green-btn{
+  background: #fe8c00;
+  background-size: 300% 100%;
+}
+
+.plan-style .bg-green-btn:hover{
+  
+  color: #fff;
+  box-shadow: 0px 20px 20px #eee;
+  transition: all .3s ease-in-out;
+}
+
+.plan-style .blue-bg-img{
+  
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgb(255, 255, 255);
+}
+
+.plan-style .orange-bg-img{
+  
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgb(255, 255, 255);
+  opacity: .7;
+}
+
+.plan-style .green-bg-img{
+  
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgb(255, 255, 255);
+  opacity: .9;
+}
+
+
+.plan-style-bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+}
+
+.plan-style .plan-header{
+  padding: 30px 0 20px 0;
+  z-index: 1;
+  position: relative;
+}
+
+.plan-style .plan-header h3 {
+  width: 60%;
+  padding: 0px 12px;
+  margin: -50px auto 0;
+  border-radius: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.plan-style .plan-header .price{
+  width: 130px;
+  margin: 30px auto -2px;
+  border-radius: 50px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  transition: all .3s ease-in-out;
+}
+
+.plan-style .plan-header .price .price-digit {
+  font-size: 55px;
+  font-weight: 900;
+}
+
+.plan-style  .plan-detail{
+  z-index: 1;
+  position: relative;
+}
+
+.plan-style .plan-detail ul{
+  padding: 0;
+  list-style-type: none;
+  color: #666;
+}
+
+.plan-style .plan-detail ul li{
+  padding: 5px 0;
+}
+
+.plan-style .plan-bottom{
+  margin: 5px;
+  padding: 12px 0 32px 0;
+  position: relative;
+  overflow: hidden;
+  color: #000;
+  
+}
+
+.plan-style .plan-button{
+  padding: 10px 18px;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #111;
+  border: none;
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+      
+}
+
+.plan-style.blue-shadow{
+  border: 2px solid #FAD23F;
+}
+
+.plan-style.blue-shadow:hover{
+  box-shadow: 0px 0px 20px -1px #FAD23F;
+  border: 2px solid ;
+}
+
+.plan-style.active{
+  box-shadow: 0pz 0px 30px -10px #ffffff;
+}
+
+.plan-style.orange-shadow{
+  border: 2px solid #0042f8;
+}
+
+.plan-style.orange-shadow:hover{
+  box-shadow: 0px 0px 30px -1px #0042f8;
+  border: 2px solid ;
+}
+
+.plan-style.green-shadow{
+  border: 2px solid#fe8c00;
+}
+
+.plan-style.green-shadow:hover{
+  box-shadow: 0px 0px 30px -1px #fe8c00;
+  border: 2px solid ;
+}
 /*-------------planes--------------*/
 
 
